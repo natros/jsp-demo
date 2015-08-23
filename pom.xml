@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>pt.ipb</groupId>
-        <artifactId>ipb-parent</artifactId>
-        <version>3</version>
-    </parent>
+    <!--<parent>-->
+        <!--<groupId>pt.ipb</groupId>-->
+        <!--<artifactId>ipb-parent</artifactId>-->
+        <!--<version>3</version>-->
+    <!--</parent>-->
 
     <groupId>pt.ipb.jsp.demo</groupId>
     <artifactId>jsp-demo</artifactId>
