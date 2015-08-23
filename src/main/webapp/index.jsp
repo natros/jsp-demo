@@ -5,6 +5,8 @@
     <title></title>
 </head>
 <body>
-    hello world
+    <a href="hello">Hello</a>
+    <br/>
+    Current date is: <%=new java.util.Date()%>
 </body>
 </html>

@@ -34,8 +34,21 @@
             <param-name>development</param-name>
             <param-value>true</param-value>
         </init-param>
+        <init-param>
+            <param-name>classdebuginfo</param-name>
+            <param-value>true</param-value>
+        </init-param>
         <load-on-startup>0</load-on-startup>
     </servlet>
+
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>pt.ipb.jsp.demo.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>jsp</servlet-name>
