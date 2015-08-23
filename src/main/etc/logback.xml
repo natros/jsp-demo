@@ -6,6 +6,7 @@
         </encoder>
     </appender>
 
+    <logger name="org.eclipse.jetty" level="INFO"/>
     <logger name="pt.ipb" level="DEBUG"/>
 
     <root level="WARN">
